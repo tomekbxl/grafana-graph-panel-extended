@@ -1,16 +1,16 @@
 {
-  "name": "grafana-graph-panel",
+  "name": "grafana-graph-panel-kaminski",
   "version": "0.1.0",
-  "description": "Webpack copy of Grafana default panel",
+  "description": "Update garafana graph panel",
   "main": "dist/module",
   "scripts": {
     "build": "webpack --config build/webpack.prod.conf.js",
     "dev": "webpack --config build/webpack.dev.conf.js"
   },
   "keywords": [],
-  "author": "Alexey Velikiy",
+  "author": "Tomasz Kaminski",
   "license": "MIT",
-  "repository": "https://github.com/CorpGlory/grafana-graph-panel",
+  "repository": "https://github.com/tomekbxl/grafana-graph-panel-extended",
   "devDependencies": {
     "@types/angular": "^1.6.43",
     "@types/flot": "0.0.31",
