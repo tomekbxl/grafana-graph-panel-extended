@@ -656,7 +656,7 @@ function graphDirective(timeSrv, popoverSrv, contextSrv) {
           if (secPerTick <= 2419200 || range <= oneYear) {
             return '%m/%d';
           }
-          return '%Y-%m';
+          return '%Y';
         }
 
         return '%H:%M';
