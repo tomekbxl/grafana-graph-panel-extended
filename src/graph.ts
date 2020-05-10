@@ -669,7 +669,7 @@ function graphDirective(timeSrv, popoverSrv, contextSrv) {
           return;
         }
 
-        if ((ranges.ctrlKey || ranges.metaKey) && contextSrv.isEditor) {
+        /*if ((ranges.ctrlKey || ranges.metaKey) && contextSrv.isEditor) {
           // Add annotation
           setTimeout(() => {
             eventManager.updateTime(ranges.xaxis);
@@ -682,7 +682,7 @@ function graphDirective(timeSrv, popoverSrv, contextSrv) {
             });
           });
         }
-      });
+      }); */
 
       elem.bind('plotclick', function(event, pos, item) {
         if (panel.xaxis.mode !== 'time') {
