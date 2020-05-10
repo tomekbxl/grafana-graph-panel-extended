@@ -1,5 +1,5 @@
 {
-  "name": "grafana-graph-panel-kaminski",
+  "name": "grafana-graph-panel-extended",
   "version": "0.1.0",
   "description": "Update garafana graph panel",
   "main": "dist/module",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/angular": "^1.6.43",
     "@types/flot": "0.0.31",
-    "@types/grafana": "github:CorpGlory/types-grafana",
+    "@types/grafana": "",
     "@types/jquery": "^3.3.0",
     "@types/lodash": "^4.14.104",
     "@types/moment": "^2.13.0",
