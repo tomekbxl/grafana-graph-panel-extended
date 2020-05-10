@@ -212,7 +212,7 @@ function ($, core) {
       if (seriesList[0].hasMsResolution) {
         tooltipFormat = 'YYYY-MM-DD HH:mm:ss.SSS';
       } else {
-        tooltipFormat = 'YYYY-MM-DD HH:mm:ss';
+        tooltipFormat = 'YYYY';
       }
 
       if (allSeriesMode) {
