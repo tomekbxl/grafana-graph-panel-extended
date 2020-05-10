@@ -2,6 +2,7 @@
   "name": "grafana-graph-panel-extended",
   "version": "0.1.0",
   "description": "Update garafana graph panel",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "main": "dist/module",
   "scripts": {
     "build": "webpack --config build/webpack.prod.conf.js",
