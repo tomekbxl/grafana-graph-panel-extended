@@ -14,7 +14,7 @@
   "devDependencies": {
     "@types/angular": "^1.6.43",
     "@types/flot": "0.0.31",
-    "@types/grafana": "",
+    "@types/grafana": "1.0.1",
     "@types/jquery": "^3.3.0",
     "@types/lodash": "^4.14.104",
     "@types/moment": "^2.13.0",
